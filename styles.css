@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter.woff2") format("woff2"), url("../fonts/inter.woff") format("woff");
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  background-color: #F5F5F5;
+  border: solid 1px #000000;
+}
+
+img {
+  width: 237px;
+  height: 229px;
+  margin-top: 116px;
+  margin-left: 120px;
+  border-radius: 150px;
+}
+
+h1 {
+  width: 350px;
+  height: 20px;
+  margin: 86px 0 0 119px;
+  color: #F587DD;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34.57px;
+}
+
+p {
+  display: block;
+  width: 1116px;
+  height: 120px;
+  margin: 66px 150px 0 120px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+}
+
+.cidade {
+  color: #000000;
+  width: 1216px;
+  height: 46px;
+  margin: 836px 0 0 120px;
+  gap: 0px;
+  display: inline;
+  padding: 3px 0 0 10px;
+}
+
+.series {
+  background-color: #BAF3F6;
+  display: block;
+  font-size: 24px;
+}
+.series h3 {
+  color: #F587DD;
+  margin-left: 120px;
+  padding: 5px;
+}
+.series ol {
+  display: block;
+  margin-left: 120px;
+}
+.series li {
+  color: #000000;
+  height: 66px;
+  margin-left: 120px;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.musicas {
+  background-color: #BAF3F6;
+  display: block;
+  font-size: 24px;
+}
+.musicas h3 {
+  color: #F587DD;
+  margin-left: 120px;
+  padding: 5px;
+}
+.musicas ul {
+  display: block;
+  margin-left: 120px;
+}
+.musicas li {
+  color: #000000;
+  height: 66px;
+  margin-left: 120px;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+footer {
+  height: 21px;
+  background: #D9D9D9;
+  font-size: 14px;
+  line-height: 16.94px;
+  font-weight: 700;
+  text-align: center;
+}
+footer a {
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}/*# sourceMappingURL=styles.css.map */

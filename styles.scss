@@ -1,0 +1,124 @@
+// Importando a fonte Inter
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter.woff2') format('woff2'),
+        url('../fonts/inter.woff') format('woff');
+}
+// definindo variáveis
+$cor-primaria:#F5F5F5;
+
+$cor-secundaria: #BAF3F6;
+
+$cor-terciaria: #D9D9D9;
+
+$cor-quartaria: #F587DD;
+
+$cor-quintaria:#000000;
+
+
+// Defina a fonte padrão para o corpo do documento
+body {
+    font-family: 'Inter', sans-serif;
+}
+main {
+    background-color: $cor-primaria;
+    border: solid 1px #000000;
+}
+img{
+    width: 237px;
+    height: 229px;
+    margin-top: 116px;
+    margin-left: 120px;
+    border-radius: 150px;
+}
+h1{
+    width: 350px;
+    height: 20px;
+    margin: 86px 0 0 119px;
+    color: $cor-quartaria;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34.57px;
+}
+p{
+    display: block;
+    width: 1116px;
+    height: 120px;
+    margin: 66px 150px 0 120px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+.cidade {
+    color: $cor-quintaria;
+    width: 1216px;
+    height: 46px;
+    margin: 836px 0 0 120px;
+    gap: 0px;
+    display: inline;
+    padding: 3px 0 0 10px;
+}
+
+.series {
+    background-color: $cor-secundaria;
+    display: block;
+    font-size: 24px;
+
+    h3 {
+        color: $cor-quartaria;
+        margin-left: 120px;
+        padding: 5px;
+    }
+
+    ol {
+        display: block;
+        margin-left: 120px;
+    }
+
+    li {
+        color: $cor-quintaria;
+        height: 66px;
+        margin-left: 120px;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+}
+
+.musicas {
+    background-color:$cor-secundaria;
+    display: block;
+    font-size: 24px;
+
+    h3{
+    color: $cor-quartaria;
+    margin-left: 120px;
+    padding: 5px;
+}
+    ul {
+    display: block;
+    margin-left: 120px;
+}
+    li {
+    color: $cor-quintaria;
+        height: 66px;
+        margin-left: 120px;
+        font-size: 24px;
+        line-height: 29.05px;
+}
+
+}
+
+footer{
+    
+    height: 21px;
+    background: $cor-terciaria; 
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 700;
+    text-align: center;
+    a{
+        align-items: center;
+        text-decoration: none;
+        color: $cor-quintaria;
+    }
+}
